@@ -1,6 +1,6 @@
 # No-Nmap
 #What You Do When There Is No Network Scanner in Shell.
-# 🔍 Bash TCP Port Scanners – 2-Liner Collection
+# 🔍 2-Liner TCP Port Scanners in Bash, Netcat, and Python
 
 This repository contains a collection of simple **2-liner Bash scripts** for basic **TCP port scanning** using `/dev/tcp`. These scanners are great for quick enumeration, learning, or scripting during CTFs or pentesting engagements.
 
@@ -8,4 +8,3 @@ This repository contains a collection of simple **2-liner Bash scripts** for bas
 
 ---
 
-ort open"; done 2>/dev/null
