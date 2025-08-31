@@ -1,0 +1,3 @@
+nc -zv 172.19.0.1 1-65535 2>&1 | grep succeeded
+
+#nc -z 172.19.0.1 1-65535 2>&1 | grep open
