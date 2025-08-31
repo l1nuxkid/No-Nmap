@@ -1,0 +1,1 @@
+seq 1 65535 | xargs -n1 -P100 bash -c 'echo > /dev/tcp/172.19.0.1/$0 && echo "$0 open"' 2>/dev/null
