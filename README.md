@@ -33,3 +33,6 @@ Run the bash scripts with:
 ```bash
 chmod +x script-name.sh
 ./script-name.sh
+
+
+You can also run these one-liner scripts directly in your shell without saving them to files. For example:
