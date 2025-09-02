@@ -36,3 +36,10 @@ chmod +x script-name.sh
 
 
 You can also run these one-liner scripts directly in your shell without saving them to files. For example:
+
+for port in {1..65535}; do echo > /dev/tcp/172.19.0.1/$port && echo "$port open"; done 2>/dev/null
+
+nc -zv 172.19.0.1 1-65535 2>&1 | grep succeeded
+
+
+
